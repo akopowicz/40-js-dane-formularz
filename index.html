@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <input type="text" id="imie" name="name" placeholder="Wpisz swoje imię"><br>
+        <input type="text" id="nazwisko" name="surname" placeholder="Wpisz swoje nazwisko"><br>
+        <input type="number" id="number" name="number" placeholder="Wpisz swój numer telefonu" min="500000000" max="999999999">
+    </form>
+
+    <button>Wyświetl dane</button>
+    <div id="container">
+        <p id="dane">Dane:</p>
+        <p id="name"></p>
+        <p id="surname"></p>
+        <p id="phone"></p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
